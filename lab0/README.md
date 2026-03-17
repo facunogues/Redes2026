@@ -6,11 +6,11 @@ Este repositorio contiene la implementación de **hget**, un cliente HTTP/1.0 de
 ---
 
 ## 🎯 Objetivos y Alcance
-[cite_start]El objetivo principal es aplicar la comunicación cliente/servidor mediante sockets desde la perspectiva del cliente, siguiendo las especificaciones de los RFC correspondientes[cite: 21, 22]:
+El objetivo principal es aplicar la comunicación cliente/servidor mediante sockets desde la perspectiva del cliente, siguiendo las especificaciones de los RFC correspondientes:
 
 * **HTTP/1.0 (RFC 1945):** Implementación de una petición GET, manejo de headers y recepción del body.
 * **DNS (RFC 1035):** Implementación de un cliente DNS propio sobre UDP para resolver hostnames mediante el servidor Quad9 (9.9.9.9).
-* [**Sockets:** Uso explícito de la biblioteca `socket` de Python, evitando abstracciones de alto nivel para comprender el flujo real de datos.
+* **Sockets:** Uso explícito de la biblioteca `socket` de Python, evitando abstracciones de alto nivel para comprender el flujo real de datos.
 
 ---
 
